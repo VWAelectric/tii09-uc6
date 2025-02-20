@@ -1,4 +1,4 @@
-let nota1 = 8, nota2 = 7, nota3 = 5, nota4 = 10;
+let nota1 = 5, nota2 = 6, nota3 = 7, nota4 = 9;
 
 let soma = nota1 + nota2 + nota3 + nota4;
 
