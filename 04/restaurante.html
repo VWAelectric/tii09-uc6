@@ -1,0 +1,26 @@
+<script>
+    let carnes = 7;
+    let arroz = 12;
+    let feijao = 8;
+
+    //while
+    while (carnes > 0 && arroz > 0 && feijao > 0) {
+
+        //switch case
+        let opcao = Number(prompt("escolha a marmita: \n 1 - Completa \n 2 - Carnes"))
+
+        switch (opcao) {
+            case 1:
+                carnes--;
+                arroz--;
+                feijao--;
+                console.log("Marmita Completa");
+                break;
+
+            case 2:
+                carnes -= 2;
+                console.log("marmita de carnes");
+                break;
+        }
+    }
+</script>
