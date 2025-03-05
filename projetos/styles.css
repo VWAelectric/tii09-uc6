@@ -12,7 +12,7 @@ body {
 .estacionamento {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .vaga {
@@ -35,6 +35,16 @@ body {
     display: flex;
     max-width: 600px;
     margin: 20px auto;  
+}
+
+.resumo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+    border-radius: 8px;
+    border: 1px solid red;
+    
 }
 
 button {
