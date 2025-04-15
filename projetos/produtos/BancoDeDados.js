@@ -39,7 +39,7 @@ export class BancoDeDados {
     }
 
     //DELETE
-    excluir(id) {
-
+    static excluir(id) {
+        localStorage.removeItem(id);
     }
 }
