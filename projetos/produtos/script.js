@@ -1,7 +1,7 @@
-// buscar os dados da tela quando o usuário "salvar"
 import { BancoDeDados } from "./BancoDeDados.js";
-import { Produto } from "./produto.js";
+import { Produto } from "./Produto.js";
 
+// buscar os dados da tela quando o usuário "salvar"
 document.getElementById('formProduto').addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -12,7 +12,8 @@ document.getElementById('formProduto').addEventListener('submit', (e) => {
 
     // criar um novo objeto do tipo "produto" com esses dados
     let produto = new Produto(nome, preco, peso, validade);
-    // enviar esse objeto para o banco de dados
+
+    // enviar esse objeto para o banco de dados    
     BancoDeDados.salvar(produto);
 });
 
