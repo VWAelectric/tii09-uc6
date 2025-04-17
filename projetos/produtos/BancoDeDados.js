@@ -21,7 +21,7 @@ export class BancoDeDados {
             const chave = localStorage.key(i);
             if (!isNaN(parseInt(chave))) {
                 const dados = JSON.parse(localStorage.getItem(chave));
-                produtos.push(Produto.fromJSON(dados)); // isnere os produtos no array;
+                produtos.push(Produto.fromJSON(dados)); // Insere os produtos no array;
             }
         }
 
