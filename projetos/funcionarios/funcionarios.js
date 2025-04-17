@@ -51,10 +51,10 @@ class Estagiario extends Funcionario {
 
 }
 
-let funcionario1 = new Funcionario("Clodoaldo Anonio da Silva", 1998, 1234, "abcd");
-funcionario1.receberSalario(1200);
-funcionario1.tempoDeEmpresa(2025);funcionario1.baterPonto(19);
+// let funcionario1 = new Funcionario("Clodoaldo Anonio da Silva", 1998, 1234, "abcd");
+// funcionario1.receberSalario(1200);
+// funcionario1.tempoDeEmpresa(2025);funcionario1.baterPonto(19);
 let gerencia = new Gerente ("Carlos Alberto Silva", 2000, 4567, "Rua Beco");
-gerencia.autorizacaoDaGerencia(3000);
+gerencia.autorizacaoDaGerencia(1000);
 
 
